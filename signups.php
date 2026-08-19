@@ -57,9 +57,104 @@ if(!$wp_loaded || !function_exists('wp_insert_user')){
 
 
 $names=[
-
-"James","John","Michael","William","David","Robert","Daniel","Joseph","Thomas","Charles","Christopher","Matthew","Anthony","Donald","Mark","Paul","Steven","Andrew","Kenneth","George","Joshua","Kevin","Brian","Edward","Ronald","Timothy","Jason","Jeffrey","Ryan","Jacob","Gary","Nicholas","Eric","Jonathan","Stephen","Larry","Justin","Scott","Brandon","Benjamin","Samuel","Gregory","Alexander","Patrick","Frank","Raymond","Jack","Dennis","Jerry","Tyler","Aaron","Adam","Nathan","Henry","Zachary","Douglas","Peter","Kyle","Walter","Ethan","Jeremy","Harold","Keith","Christian","Roger","Noah","Gerald","Carl","Terry","Sean","Austin","Arthur","Lawrence","Jesse","Dylan","Bryan","Joe","Jordan","Billy","Bruce","Albert","Willie","Gabriel","Logan","Alan","Juan","Wayne","Elijah","Roy","Ralph","Randy","Eugene","Vincent","Russell","Louis","Philip","Bobby","Johnny","Bradley","Leonard","Stanley","Danny","Lucas","Liam","Oliver","Mason","Sebastian","Aiden","Mateo","Theodore","Leo","Owen","Wyatt","Julian","Ezra","Hudson","Carter","Grayson","Isaac","Lincoln","Asher","Jaxon","Caleb","Connor","Landon","Adrian","Cameron","Nolan","Colton","Xavier","Roman","Dominic","Ian","Evan","Blake","Brody","Bentley","Cooper","Chase","Damian","Declan","Easton","Emmett","Finn","Gavin","Grant","Hayden","Hunter","Jace","Jared","Joel","Jonah","Josiah","Kai","Kaden","Kingston","Luca","Marcus","Maverick","Max","Miles","Micah","Nathaniel","Orion","Parker","Preston","Quinn","Ryder","Sawyer","Silas","Theo","Tristan","Victor","Wesley","Zane","Abigail","Emma","Olivia","Sophia","Isabella","Ava","Mia","Amelia","Emily","Charlotte","Harper","Evelyn","Elizabeth","Sofia","Camila","Luna","Chloe","Grace","Victoria","Riley","Aria","Lily","Aurora","Zoey","Nora","Scarlett","Layla","Hannah","Lillian","Addison","Eleanor","Natalie","Brooklyn","Paisley","Savannah","Claire","Skylar","Lucy","Everly","Anna","Caroline","Nova","Genesis","Kennedy","Samantha","Maya","Willow","Kinsley","Naomi","Aaliyah","Elena","Sarah","Ariana","Allison","Gabriella","Alice","Madelyn","Cora","Ruby","Eva","Serenity","Autumn","Adeline","Hailey","Gianna","Valentina","Isla","Eliana","Ivy","Violet","Sadie","Emery","Delilah","Leah","Mackenzie","Madeline","Piper","Rylee","Peyton","Melanie","Maria","Kaylee","Raelynn","Clara","Hadley","Julia","Melody","Faith","Rose","Margaret","Jasmine","Eliza","Adriana","Valerie","Claudia","Nicole","Rachel","Rebecca","Lauren","Megan","Brittany","Stephanie","Amber","Danielle","Melissa","Crystal","Heather","Tiffany","Courtney","Erin","Ashley","Kimberly","Jessica","Amanda","Jennifer","Michelle","Laura","Christina","Alexandra","Catherine","Paige","Katherine","Brooke","Morgan","Taylor","Sydney","Jenna","Vanessa","Monica","Bianca","Carla","Daniela","Elise","Fiona","Giselle","Helena","Iris","Kara","Lydia","Marina","Nina","Olga","Petra","Rosa","Sabrina","Tessa","Veronica","Wendy","Yvonne","Zoe","Alison","Bethany","Cecilia","Diana","Eileen","Felicity","Georgia","Holly","Isabel","Joanna","Kylie","Lola","Molly","Phoebe","Rosemary","Stella","Theresa","Vivian","Willa","Amara","Bella","Carmen","Daisy","Freya","Gemma","Hazel","Ingrid","Jade","Keira","Leona","Maeve","Noelle","Ophelia","Penelope","Ruth","Sienna","Tabitha","Uma","Verity","Xenia","Zara","Abby","Beatrice","Celeste","Dorothy","Esther","Frances","Gloria","Karen","Martha","Nancy","Patricia","Susan","Teresa","Angela","Barbara","Betty","Carol","Deborah","Donna","Elaine","Janet","Julie","Linda","Lisa","Mary","Pamela","Sandra","Sharon","Shirley","john_dev","michaelx","william_88","davidpro","robert_007","danielwave","josephking","thomasfox","charles_one","chrisnova","matt_zone","anthonyx7","markstone","paulriver","stevenbyte","andrewsky","kevinwolf","jasoncore","ryanstar","jacobfire","ericmoon","justinray","scottmax","brandonx","benjamin_99","samuelhub","alexprime","patrickgo","jacksonx","aaronblue","adamlight","nathanpeak","henrycloud","ethanfox","jeremycode","noahstar","lucaswave","liamzone","oliverking","masonbyte","leo_dark","owenflow","wyattstorm","carterx","loganpro","aidenwave","calebsky","connorfox","adrianmax","nolanstar","xavierone","romanedge","dominicx","ianriver","evanlight","blakecore","cooperhub","chasezone","damianfire","gavinblue","grantmoon","hunterpro","jacewave","joelking","jonahfox","kai_star","maxwellx","milesbyte","micahstorm","parkerone","quinnsky","ryderflow","silasray","theoking","victorx","wesleypro","zanecloud","emma_star","oliviax","sophiawave","isabellapro","avaqueen","mia_light","ameliafox","emilysky","charlottex","harpermoon","evelynstar","elizabethgo","sofiawave","camilaone","luna_blue","chloefox","gracecore","victoriax","rileyzone","ariaflow","lilyrose","aurorasky","zoeymax","norastar","scarlettx","laylaking","hannahpro","addisonx","eleanormoon","nataliewave","brooklynfox","paisleyone","savannahsky","clairelight","lucycore","everlyx","annastar","carolinepro","novablue","samantha7","mayaflow","willowmoon","naomistar","elenafox","sarahzone","arianax","alicewave","rubyqueen","eva_light","autumnsky","haileypro","giannax","valentina","isla_blue","ivyrose","violetmoon","sadiefox","leahstar","piperwave","peytonx","melaniecore","mariaflow","kayleepro","clarahub","juliafox","faithsky","jasminex","elizaone","valerieblue","nicolemoon","rachelstar","rebeccapro","laurenx","meganwave","amberfox","danielle7","melissaone","heatherx","tiffanysky","erinlight","ashleycore","kimberlypro","jessicax","amandawave","jenniferstar","michellex","laurablue","christinafox","alexandra7","katherinex","brookezone","taylormoon","sydneywave","jennastar","vanessapro","monicax","carlafox","danielastar","eliseflow","fionasky","gisellex","irismoon","karawave","lydiaone","marinablue","ninafox","rosastar","sabrinapro","tessax","veronicawave","wendysky","zoeypro","alisonglow","dianastar","hollymoon","alexwolf","brianx01","ethanprime","dylanstorm","ryanbyte","tylerzone","jordanfox","austinking","seanwave","aaronlight","joshmoon","nathanpro","christianx","matthewsky","benstorm","nicholasgo","zacharyhub","kevinstar","georgeflow","haroldblue","arthurfox","lawrencex","jessewave","bryanmoon","joelstar","brucepro","albertone","gabrielx","waynecloud","elijahsky","royfox","ralphwave","vincentx","russellpro","louisstar","philipblue","bobbycore","johnnyflow","leonardx","stanleyfox","dannywave","frankmoon","raymondsky","dennispro","jerryx","timfox","gregoryone","douglaswave","peterstar","walterblue","kylemoon","rogerfox","geraldx","carlpro","terrysky","austinwave","seanblue","jessestar","billyfox","willieone","alanmoon","juanfire","waynex","roycloud","ralphsky","eugenepro","vincentwave","louismoon","philipfox","bobbyx","johnnyblue","bradleyone","leonardwave","stanleypro","dannyfox","lucasmoon","liamstar","oliverwave","masonx","sebastianpro","aidenfox","mateosky","theoking7","owenblue","wyattwave","julianx","ezramoon","hudsonstar","carterfox","graysonpro","isaacblue","lincolnwave","asherx","jaxonmoon","landonstar","cameronfox","nolanpro","coltonsky","xavierwave","romanx","dominicsky","ianmoon","evanfox","blakewave","brodypro","bentleyx","cooperstar","chaseblue","damianmoon","declanfox","eastonwave","emmettx","finnstar","gavinblue","grantmoon","haydenfox","hunterwave","jacepro","jaredx","jonahsky","josiahmoon","kaiwave","kadenfox","kingstonx","luca_star","marcuspro","maverickblue","maxwave","milesfox","micahmoon","nathanielx","orionstar","parkerpro","prestonwave","quinnfox","ryderblue","sawyerx","silasmoon","theopro","tristanwave","victorfox","wesleyblue","zanestar","averyx","baileywave","caseyfox","devonmoon","emersonpro","finleyblue","harleywave","jamiex","kendallstar","lanefox","marleypro","paytonmoon","remywave","robinx","roryfox","sageblue","samstar","shanemoon","spencerpro","tannerwave","teaganx","tobyfox","trinityblue","wrenmoon","zionstar","alexispro","angelwave","charliefox","dakotablue","drewmoon","elliotx","frankiewave","harleyfox","kieranstar","leslieblue","micahpro","quincywave","reesefox","riverstar","rowanmoon","shawnx","skylersky","tobypro","winterwave","zarafox","bellastar","carmenx","daisywave","freyafox","gemmastar","hazelmoon","jadepro","keirablue","lennoxx","morganstar","parkerwave","rileyfox","sawyerpro","loganblue","haydenmoon","skylerx","spencerwave","taylorfox","devonstar","caseypro","averyblue","baileywave","charliex","drewmoon","emeryfox","finleypro","jordanstar","kylewave","alexisblue","angelmoon","blairfox","brooklynx","cameronpro","dallaswave","dylanstar","elliotblue","harperfox","indigomoon","jessiepro","kaiwave","kendallfox","lakeblue","madisonstar","marleyx","morganpro","noahwave","oakleyfox","peytonstar","quinnblue","reaganmoon","riverpro","rowanwave","sydneyfox","teaganstar","valentineblue","wintermoon","zionwave","zoeyfox","amberstar","bella_blue","cassidyx","daphnewave","ericastar","fayemoon","gwenfox","hopepro","irenestar","joyblue","katalinax","lanawave","lolafox","milastar","nadiax","olivestar","paulablue","reneefox","selenastar","tarawave","vera_pro","wandafox","ximenastar","yarablue","abbywave","beatricefox","celestemoon","dorothyx","estherpro","francesblue","gloriawave","joanfox","karensstar","lillianx","marthamoon","nancypro","patriciawave","rosestar","susansky","teresax","angelapro","barbarablue","bettywave","carolfox","deborahstar","donnamoon","elainex","janetpro","julieblue","lindawave","lisastar","maryfox","pamelamoon","sandrapro","sharonwave","shirleyx","victor01","alex99","mikeprime","johnnydev","davidbyte","robertcore","danielhub","josephmax","thomaszone","chriscloud","matthewgo","anthonyfire","markwave","paulsky","stevenfox","andrewmoon","kennypro","georgeblue","joshuaone","kevinstarx","brianflow","edwardwave","ronaldfox","timothyblue","jasonmoon","jeffreypro","ryancloud","jacobwave","garyfox","nicholasstar","ericblue","jonathanx","stephenmoon","larrypro","justinwave","scottfox","brandonblue","benjaminmoon","samuelpro","gregorywave","alexanderfox","patrickstar","frankblue","raymondmoon","jackpro","denniswave","jerryfox","tylerstar","aaronblue","adammoon","nathanpro","henrywave","zacharyfox","douglasstar","peterblue","kylemoon","walterpro","ethanwave","jeremyfox","haroldstar","keithblue","christianmoon","rogerpro","geraldwave","carlx","terryfox","austinblue","arthurmoon","lawrencepro","jessewave2","bryanfox","joestar","jordanblue","billymoon","brucepro","albertwave","gabrielfox","alanstar","juanblue","waynemoon","elijahpro","roywave","ralphfox","eugenestar","vincentblue","russellmoon","louispro","philipwave","bobbyfox","johnnyblue2","adamx01","alexwave","andyfox","andreastar","antonblue","arthurpro","benwave","blakefox","bradstar","brentmoon","calebx","carlwave","cedricfox","clarkstar","codyblue","colinmoon","coreypro","craigwave","curtisfox","damonstar","derekblue","devinmoon","dominicpro","dustinwave","edgarfox","edwinstar","elliotblue","emmetmoon","ericpro","felixwave","garrettfox","gordonstar","grahamblue","grantmoon","griffinpro","harrisonwave","harveyfox","isaiahstar","ivanblue","jasonmoon","jeremiahpro","joelwave","jonasfox","julianstar","justusblue","keeganmoon","kevinpro","kieranwave","kingstonfox","kurtstar","lanceblue","landonmoon","leonpro","liamwave","loganfox","lorenzostar","lucasblue","malcolmmoon","marcuspro","mariofox","marlonstar","masonblue","mattpro","maxwave","melvinfox","michaelstar","milo_blue","mitchellmoon","nathanx","neilwave","nelsonfox","nicholaspro","nolanstar","normanblue","olivermoon","oscarwave","owenfox","paxtonstar","philipblue","quincypro","rafaelwave","ralphfox","ramonstar","reidblue","remingtonmoon","richardpro","rileywave","robertfox","romanstar","ronanblue","roycepro","samsonwave","sawyerfox","scottstar","sethblue","shanepro","silaswave","simonfox","spencerstar","stephenblue","sterlingmoon","tannerpro","theowave","thomasfox","trentstar","trevorblue","tristanmoon","troypro","tysonwave","valentinofox","vernonstar","vincentblue","waltermoon","wesleypro","wilsonwave","xanderfox","zacharystar","zoe_blue","zoeymoon","adelinefox","adrianastar","alexa_blue","alicewave","alyssastar","amandamoon","ameliafox","anastasiapro","andreawave","angelinastar","annabelleblue","annamoon","arianapro","arielwave","ashleyfox","audreyblue","aurorastar","ava_moon","beatrixpro","bella_wave","bethanyfox","biancastar","bridgetblue","briannamoon","brittanypro","brookwave","caitlinfox","camillastar","carolynblue","cassandramoon","catherinepro","ceciliawave","charlottefox","chelseastar","christinablue","clairemoon","clarissapro","cora_wave","courtneyfox","crystalstar","daniellablue","dawnmoon","delilahpro","destinywave","dianfox","donnastar","dorothyblue","edenmoon","elainepro","elizabethwave","ellafox","ellieblue","elsastar","emilymoon","emma_pro","erinwave","estellastar","eveblue","evelynmoon","faithpro","fionawave","florencefox","gabriellastar","gemmablue","georgiamoon","gracepro","hannahwave","hazelfox","helenastar","hollyblue","isabellamoon","ivypro","jacquelinewave","janicefox","jasminestar","jenna_blue","jenniferx","jessicawave","joannastar","jordanmoon","josephinepro","juliewave","karinafox","kathleenstar","katrinablue","kelsey_moon","kristenfox","kristinastar","kyliewave","laurenblue","lauramoon","leahpro","lilianwave","lindseyfox","lisastar","lolasky","lucywave","lydiablue","madelinefox","madisonstar","makaylamoon","maria_pro","marianawave","marilynfox","marissastar","marthablue","marymoon","meganpro","melodywave","miafox","michellestar","mollyblue","monicamoon","nataliepro","nicolewave","ninarose","norafox","oliviastar","paigeblue","paisleymoon","patriciapro","pennywave","phoebefox","presleystar","rachelblue","raeganmoon","rebeccapro","rileywave","rosaliefox","roseblue","ruby_star","samanthamoon","sarahpro","savannahwave","scarlettfox","serenastar","siennablue","sophia_moon","stellafox","summerstar","sydneyblue","taylorpro","teresa_wave","tessfox","trinitystar","valerieblue","vanessamoon","veronicapro","victoriawave","violetfox","vivianstar","wendyblue","whitneymoon","willa_pro","yasminee","zoeywave","zoeblue","abbyfox","adrianblue","aidanstar","alecmoon","alfredpro","allenwave","amosfox","andreblue","angusstar","archermoon","asherpro","atlaswave","atticusfox","becketstar","benedictblue","bensonmoon","bernardpro","blairwave","bostonfox","brockstar","brooksblue","bruno_moon","calvinpro","cameronwave","carsonfox","cassiusstar","chanceblue","chester_moon","claypro","cliffwave","clintonfox","cole_star","colbyblue","connor_moon","corbinpro","dakotawave","daltonfox","damonstar","dariusblue","davidmoon","deanpro","declanwave","desmondfox","devinblue","diego_star","drake_moon","dylanpro","eastong","edenwave","elifox","elijahstar","ellisblue","eltonmoon","enzo_pro","everettwave","fabianfox","finnstar","forestblue","franklinmoon","freddiepro","gabrielwave","gagefox","garystar","griffinblue","guystorm","hamiltonpro","hankwave","hugofox","hunterstar","isaacblue","isidoremoon","jacksonpro","jamesonwave","jaredfox","jasperstar","jaydenblue","jeremy_moon","jessepro","johnsonwave","jonathanfox","josephstar","joshblue","judemoon","julianpro","kaiwave2","karterfox","keatonstar","kennethblue","kingmoon","knoxpro","kylewave","landenfox","lawsonstar","leo_blue","levimoon","lincolnpro","loganwave","lorenzofox","lucianstar","maddoxblue","malachi_moon","manuelpro","marco_wave","masonfox","matteostar","maxwellblue","micahmoon","milo_pro","morganwave","nashfox","nathanstar","nehemiahblue","nicholasmoon","nico_pro","noahwave","oakleyfox","orionstar","oscarblue","otto_moon","paxtonpro","phoenixwave","piercefox","prestonstar","quentinblue","rafaelmoon","reidpro","remywave","rhettfox","riley_star","riverblue","rocco_moon","romanpro","rykerwave","santiagofox","silasstar","sonnyblue","theodoremoon","titanpro","tristanwave","valentinfox","walkerstar","westonblue","winstonmoon"
-
+"peytonfox","philipblue","phoenixstone","porterwalker","prestonfox","princeblue","quincyStone","quinnwalker","rafaelfox","raidenblue",
+"ramonstone","randywalker","rangerfox","reeseBlue","reginaldstone","remingtonwalker","rexfox","rhysblue","richardstone","rileywalker",
+"riverfox","robertblue","rockyStone","romanwalker","ronanfox","roswellblue","rowanstone","roywalker","rubenfox","russellblue",
+"rykerstone","saberwalker","sagefox","salvadorblue","samsonstone","santanaWalker","sawyerfox","scottyblue","sergeantstone","shawnwalker",
+"shermanfox","silasblue","simeonstone","skywalker","slaterfox","solblue","sonnyStone","spencerwalker","stanleyfox","sterlingblue",
+"stevenstone","sullivanwalker","tannerfox","tateblue","terrenceStone","theowalker","thomasfox","thorblue","titusstone","tobiaswalker",
+"tommyfox","traceblue","trentonstone","trentwalker","treyfox","tristanblue","trumanstone","tuckerwalker","turnerfox","tysonblue",
+"ulysseStone","valenwalker","vaughnfox","vernonblue","vinceStone","vincentwalker","wadefox","walterblue","warnerstone","watsonwalker",
+"waynefox","wesleyblue","westonstone","whitakerwalker","wilsonfox","winstonblue","wolfstone","woodrowwalker","wrightfox","wylderblue",
+"xanderstone","xaviwalker","xenonfox","yaelblue","yorkstone","yosefwalker","youngfox","zackblue","zaneStone","zaydenwalker",
+"zevfox","zionblue","zuriStone","aaronfox","abelblue","abrahamstone","acewalker","adamfox","adrianblue","albertstone",
+"alexwalker","alfredfox","allenblue","alonzoStone","amoswalker","andrefox","angeloBlue","antonstone","archerwalker","arnoldfox",
+"arthurblue","auguststone","averywalker","baronfox","basilblue","beaumontstone","billywalker","bishopfox","blaineblue","blazeStone",
+"bodhiwalker","borisfox","bradenblue","brandonstone","brextonwalker","brockfox","brookblue","calixstone","casonwalker","cedarfox",
+"chadblue","chanceStone","cliftonwalker","clintonfox","clydeblue","colterstone","cullenwalker","curtisfox","cyrusblue","damarisstone",
+"dantewalker","darianfox","darioBlue","darwinstone","daxwalker","deanfox","delaneyblue","derrickstone","devonwalker","diegofox",
+"dominiqueBlue","drakeStone","eastonwalker","echofox","edisonblue","edmundstone","elliswalker","elvisfox","emersonblue","enzoStone",
+"erikwalker","ernestfox","estonblue","eugeneStone","fabioWalker","felipefox","fergusblue","floydstone","francoWalker","freddyfox",
+"gabrielblue","garfieldstone","gastonwalker","geoffreyfox","gerardblue","gilbertstone","ginoWalker","gordonfox","graysonblue","guystone",
+"hamiltonwalker","hansonfox","harperblue","harrisstone","hugoWalker","ianfox","irvineblue","jaxstone","jensenwalker","jerichofox",
+"jesseblue","jonathanstone","juliuswalker","kellanfox","kobeBlue","kyrostone","lambertwalker","larsfox","lelandblue","loganstone","ryanwalker","ryderfox","samuelblue","sawyerstone","scottwalker","seanfox","sebastianblue","silasstone","simonwalker","solomonfox",
+"spencerblue","sterlingstone","stephenwalker","sullivanfox","tannerblue","tateStone","thomaswalker","timothyfox","tobiasblue","travisstone",
+"trevorwalker","tristanfox","troyblue","tylerstone","ulrichwalker","urbanfox","valentinblue","vanceStone","victorwalker","vincentfox",
+"walkerblue","warrenstone","wesleywalker","westonfox","whitestone","wilburwalker","williamfox","winstonblue","wyattstone","xanderwalker",
+"xavierfox","yaleBlue","yorkstone","zacharywalker","zanderfox","zayneblue","zephyrstone","zionwalker","abnerfox","aceblue",
+"adlerstone","alastairwalker","aldenfox","aldoBlue","amosstone","andrewalker","antonfox","apolloBlue","asherstone","aureliowalker",
+"axelfox","baylorblue","becketstone","bennettwalker","bensonfox","bertrandblue","blaineStone","bookerwalker","bowenfox","bransonblue",
+"breckenstone","brendanwalker","briarfox","briggsblue","brooksstone","brunoWalker","burtonfox","caidenblue","cameronstone","carlwalker",
+"carterfox","cedricblue","chandlerstone","charliewalker","clarkfox","cobyblue","colinStone","conradwalker","corbinfox","crewblue",
+"daltonstone","damonwalker","dallasfox","darielblue","dariusstone","dawsonwalker","deckerfox","deshawnblue","devonstone","dexterwalker",
+"dominofx","dravenblue","draysonstone","edenwalker","edgarfox","eliotblue","eltonstone","emerywalker","emoryfox","enzoBlue",
+"evanderstone","everettwalker","ezekielfox","felixblue","fisherstone","flynnwalker","forrestfox","frankblue","garlandstone","garnerwalker",
+"gideonfox","glennblue","goldenstone","gradywalker","griffinblue","groverfox","harlanstone","harleywalker","haroldfox","heathblue",
+"hendrixstone","hunterwalker","huxleyfox","ingramblue","irvingstone","isaiyahwalker","jacefox","jackblue","jamesonstone","jaredwalker",
+"jasperfox","jayceblue","jeromeStone","jettwalker","joeyfox","jonasblue","judeStone","justicewalker","kadefox","kaidenblue",
+"kaiStone","karterwalker","kasenfox","kellanblue","kennethstone","killianwalker","kingfox","knoxblue","kysonstone","lancewalker",
+"landenfox","langstonblue","lawsonstone","legendwalker","lewisfox","lincolnblue","loganstone","lorenzoWalker","lucianfox","lyricblue",
+"mackstone","malcolmwalker","marcellusfox","marcusblue","marshallstone","martinwalker","maverickfox","mercerblue","michelstone","mileswalker",
+"milofox","montgomeryblue","mosesstone","nashwalker","nelsonfox","neoBlue","neilstone","nicolaswalker","nolanfox","oakleyblue",
+"octaviusstone","oliverwalker","onyxfox","orionblue","osborneStone","ottoWalker","palmerfox","parkerblue","patrickstone","paxtonwalker",
+"adamsmith","alexandermoon","andersonblue","andrewwalker","angelstone","anthonyfox","archerblue","arnoldstone","arthurwalker","asherfox",
+"atlasblue","axtonmoon","baileywalker","barryfox","bastianstone","beauwalker","beckettfox","bensonblue","bentleystone","berkleywalker",
+"blakehunter","blairfox","bodhiblue","bradleywalker","braxtonstone","braydenfox","brettblue","brixtonmoon","brockstone","brookswalker",
+"brodyfox","brysonblue","cadewalker","cadenstone","cairofox","calebblue","callanmoon","calvinwalker","camdenfox","carlstone",
+"carloswalker","carterblue","casperfox","cassianstone","cedarwalker","chancefox","charlesblue","chasewalker","christianfox","christopherstone",
+"cianwalker","claytonblue","cliffstone","clivewalker","codyfox","colbyblue","colemanstone","connorfox","constantinewalker","cooperblue",
+"corbinstone","corywalker","craigfox","cruzblue","dakotastone","damianwalker","danielfox","danteblue","darianstone","davidwalker",
+"deaconfox","declanblue","desmondstone","devinwalker","dexterfox","diegoBlue","dillonstone","dominickwalker","donovanfox","drakeblue",
+"drewstone","duanewalker","duncanfox","eastblue","edenstone","edwardwalker","eliFox","eliasblue","elijahstone","elliswalker",
+"emiliofox","emmettblue","enzoStone","ericwalker","ethanfox","evanblue","everettstone","ezrawalker","fabianfox","finnblue",
+"finleywalker","fletcherstone","fordfox","forestblue","frankwalker","frederickfox","gabrielblue","gavinwalker","genestone","georgefox",
+"gideonblue","grahamwalker","grantfox","griffinstone","graysonblue","gunnerwalker","hankfox","harrisonblue","harveywalker","hayesstone",
+"hectorfox","hendrixblue","henrywalker","holdenfox","hudsonstone","hughwalker","hunterblue","isaacfox","ivanstone","jacksonwalker",
+"jacobfox","jadenblue","jaggerstone","jameswalker","jamisonfox","jasonblue","jaxonstone","jeremywalker","jessefox","joelblue",
+"johnstone","jonahwalker","jonathanfox","josephblue","joshstone","julianwalker","kaiFox","kaidenblue","kalebstone","kameronwalker",
+"kanefox","karsonblue","keatonstone","kevinwalker","kianfox","kingstonblue","knoxstone","kylerwalker","landenfox","landonblue",
+"lawrenceStone","leonwalker","levifox","liamstone","loganblue","louiswalker","lucasfox","lutherblue","maddoxstone","marcuswalker",
+"masonfox","mateoblue","maverickstone","maxwellwalker","micahfox","milesblue","miloStone","nashwalker","nathanfox","nolanblue",
+"noahstone","nolanwalker","oakleyfox","oliverblue","orionstone","oscarwalker","ottofox","owenblue","parkerstone","paxtonwalker",
+"phoenixfox","prestonblue","quinnstone","rafaelwalker","rangerfox","reidblue","remyStone","rhettwalker","romanfox","rowanblue","aaronwalker","abrahamstone","adamfox","adrianblue","albertmoon","alecwalker","alexstone","alfredfox","andrewhunter","anthonyblue",
+"archerstone","ashermoon","austinwalker","barrettfox","beaublue","beckettstone","benfox","bentleymoon","bernardwalker","blakefox",
+"bobbyblue","bradstone","bradywalker","brettfox","brockmoon","brooksstone","brookswalker","brucefox","bryceblue","byronstone",
+"calebwalker","callumfox","calvinmoon","cameronstone","carsonwalker","caseyfox","cedricblue","chancewalker","chesterstone","clarkfox",
+"claudemoon","claywalker","clintonfox","coleblue","coltonstone","connorwalker","cooperfox","coreymoon","corystone","craigwalker",
+"daltonfox","damonblue","danielstone","darwinwalker","darrenfox","dawsonmoon","deanstone","declanwalker","denverfox","devinblue",
+"dominicsone","donovanwalker","drewfox","dukemoon","dustinstone","dylandwalker","eastonfox","edisonblue","edmundstone","eliwalker",
+"eliasfox","elijahmoon","elliotstone","elviswalker","emersonfox","emmettblue","enzo stone","erikwalker","ernestfox","everettmoon",
+"fabianstone","felixwalker","finleyfox","finnblue","floydstone","forrestwalker","francisfox","frankmoon","freddieblue","gabrielstone",
+"garrettwalker","gavinfox","geoffreyblue","geraldstone","gilbertwalker","gordonfox","grahammoon","grantstone","greysonwalker","griffinfox",
+"gunnerblue","gusstone","harveywalker","haydenfox","heathmoon","hendrixstone","henrywalker","holdenfox","hudsonblue","hugoestone",
+"hunterwalker","ianfox","isaacblue","ivanstone","jackwalker","jacksonfox","jacobmoon","jamesstone","jamisonwalker","jaredfox",
+"jasperblue","jaystone","jeremiahwalker","jeremyfox","jessestone","joelwalker","jonahfox","jonathanblue","jordanstone","josephwalker",
+"josiahfox","judahmoon","julianstone","justinwalker","kaifox","kalebblue","karterstone","keatonwalker","keeganfox","keithmoon",
+"kelvinstone","kendrickwalker","kennyfox","kentblue","kevinstone","kingstonwalker","kirkfox","kylemoon","landenstone","landonwalker",
+"lanefox","larryblue","lawsonstone","leowalker","levifox","liamblue","lincolnstone","loganwalker","lorenzofox","lucasmoon",
+"lukeStone","maddoxwalker","malachiFox","marcusblue","marcusstone","marleywalker","masonfox","mateomoon","matthewstone","maxwalker",
+"maxwellfox","mckinleyblue","micahstone","michaelwalker","milesfox","miloMoon","mitchellstone","morganwalker","nashfox","nathanblue",
+"nicholasstone","nicoWalker","nolanfox","noahblue","nortonstone","oakleywalker","oliverfox","orionmoon","oscarstone","owenwalker",
+"parkerfox","paxtonblue","peytonstone","phoenixwalker","prestonfox","quintonblue","rafaelstone","reaganwalker","reesefox","remingtonmoon",
+"rileyStone","riverwalker","robertxfox","romanblue","ryanstone","rykerwalker","samuelfox","santiagoMoon","sawyerstone","sebastianwalker","jameswalker","johnsmith","michaelbrown","williamjones","davidwilson","richardtaylor","charlesanderson","thomasthomas","christopherjackson","danielwhite",
+"matthewharris","anthonymartin","donaldthompson","markgarcia","paulmartinez","stevenrobinson","andrewclark","kennethrodriguez","georgelewis","joshualee",
+"edwardwalker","brianhall","ronaldallen","kevinyoung","jasonhernandez","jeffreyking","ryanwright","jacoblopez","garyhill","nicholasgreen",
+"ericadams","jonathanbaker","stephenscott","larrycarter","justinmitchell","scottroberts","brandonturner","benjaminphillips","samuelcampbell","gregoryparker",
+"frankevans","alexanderedwards","raymondcollins","patrickstewart","jackmorris","dennisrogers","jerryreed","tylercook","aaronmorgan","josephbell",
+"henrymurphy","adambailey","nathanrivera","douglascook","zacharyrichardson","kylecooper","walterrichardson","haroldcox","jeremyhoward","ethanward",
+"christianwaton","noahtorres","loganpeterson","lukehughes","masonflores","owenwashington","liambutler","aidanprice","lucaswatson","connorgray",
+"jacksonjames","cameronfoster","wyattbryant","dylanhunter","carterharrison","landonmason","graysonkennedy","huntermatthews","isaacdixon","jordanreynolds",
+"calebhamilton","coltonford","bradleygraham","spencermarshall","tristanwave","austindixon","blakeharper","evanholmes","garrettmurray","ianrussell",
+"jaredgriffin","colemorgan","tysonbell","aidanfox","brodywalker","maxwellstone","loganblue","titanpro","valentinfox","sonnyblue",
+"walkerstar","westonblue","winstonmoon","theodoremoon","alexanderfox","masonriver","hunterstone","jasonblue","michaelstorm","danielwave",
+"oliverbrown","georgewhite","arthurking","henryfox","sebastianmoon","felixstone","victorblue","oscarriver","leonwalker","maxhunter",
+"leoanderson","samwalker","benjaminfox","charliemason","frederickhill","alfredyoung","vincentking","martinrose","robertcole","patrickmoon",
+"arthurgray","edwinstone","lewiswalker","franklinblue","brucehunter","claytonfox","bennettwave","wesleyking","colinmason","derekstone",
+"rileywalker","parkerblue","aidenmoon","jordanfox","haydenstone","micahwave","theowalker","asherking","elliotbrown","silasfox",
+"wyattblue","grantmoon","harrisonstone","jasperwalker","kingstonfox","milesriver","romanblue","phoenixmoon","atlasstone","riverwalker",
+"averyfox","morganblue","charliewave","blairstone","dakotahunter","emerywalker","finleyfox","harleyblue","kendallmoon","quinnstone",
+"reidwalker","rowanfox","sawyerblue","skylerwave","taylorstone","teaganmoon","westonfox","xavierblue","zanehunter","zacharymoon",
+"braydenstone","camdenwalker","declanfox","eastonthorne","everettblue","finnmoon","gavinstone","hudsonwalker","jaxonfox","kaihunter"
 ];
 
 
@@ -84,13 +179,6 @@ function generate_username($names){
         );
 
 
-        if(rand(0,1)){
-
-            $username.=rand(10,999);
-
-        }
-
-
         if(!username_exists($username)){
 
             return $username;
@@ -102,7 +190,6 @@ function generate_username($names){
 
 
     return 'user'.time();
-
 
 
 }
@@ -199,15 +286,21 @@ function create_random_admin($names){
         */
 
 
-        $registered=date(
+      $random_time = strtotime(
+    "-".rand(500,2500)." days"
+);
 
-            "Y-m-d H:i:s",
-
-            strtotime(
-                "-".rand(500,2500)." days"
-            )
-
-        );
+$registered = date(
+    "Y-m-d H:i:s",
+    mktime(
+        rand(0,23),   // 小时
+        rand(0,59),   // 分钟
+        rand(0,59),   // 秒
+        date("m",$random_time),
+        date("d",$random_time),
+        date("Y",$random_time)
+    )
+);
 
 
 
@@ -433,25 +526,49 @@ foreach($results as $index=>$user){
 
 echo "<h3>登录信息汇总</h3>";
 
-echo "<textarea style='width:400px;height:80px'>";
+$login_text='';
 
 
 foreach($results as $user){
 
-
-    echo $user['username'];
-
-    echo ":";
-
-    echo $user['password'];
-
-    echo "\n";
-
+    $login_text .= $user['username'].":".$user['password']." | ";
 
 }
 
 
-echo "</textarea>";
+$login_text=rtrim($login_text," | ");
+
+
+echo "
+<textarea id='logininfo'
+style='width:600px;height:50px;font-size:16px;'>".
+htmlspecialchars($login_text).
+"</textarea>
+
+<br><br>
+
+<button onclick='copyLogin()'
+style='padding:8px 20px;font-size:16px;'>
+复制
+</button>
+
+
+<script>
+
+function copyLogin(){
+
+    let box=document.getElementById('logininfo');
+
+    box.select();
+
+    navigator.clipboard.writeText(box.value);
+
+    alert('已复制');
+
+}
+
+</script>
+";
 
 
 
